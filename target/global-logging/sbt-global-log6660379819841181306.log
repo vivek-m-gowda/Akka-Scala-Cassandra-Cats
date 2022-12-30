@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Ubuntu Java 11.0.17)
+[debug]       Load.loadUnit: plugins took 174.860602ms
+[debug]       Load.loadUnit: defsScala took 0.596601ms
+[debug] [Loading] Scanning directory /home/dell/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dell/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 34.010246 ms
+[debug]           Load.resolveProject(global-plugins) took 96.830143ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/dell/.sbt/1.0/plugins, plugins: List(<none>))) took 215.987113ms
+[debug] [Loading] Done in /home/dell/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 271.116462ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.557889ms
+[debug]     Load.loadUnit(file:/home/dell/.sbt/1.0/plugins/, ...) took 471.051109ms
+[debug]   Load.apply: load took 952.414281ms
+[debug]   Load.apply: resolveProjects took 15.875734ms
+[debug]   Load.apply: finalTransforms took 199.290108ms
+[debug]   Load.apply: config.delegates took 17.57361ms
+[debug]   Load.apply: Def.make(settings)... took 1034.187568ms
+[debug]   Load.apply: structureIndex took 197.435492ms
+[debug]   Load.apply: mkStreams took 2.508224ms
+[info] loading global plugins from /home/dell/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4683.610387ms
+[debug]           Load.loadUnit: plugins took 32.173578ms
+[debug]           Load.loadUnit: defsScala took 0.009805ms
+[debug] [Loading] Scanning directory /home/dell/Desktop/scala-cassandra-akka/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/dell/Desktop/scala-cassandra-akka/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.171607 ms
+[debug]               Load.resolveProject(scala-cassandra-akka-build) took 2.315336ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-cassandra-akka-build, base: /home/dell/Desktop/scala-cassandra-akka/project, plugins: List(<none>))) took 7.565194ms
+[debug] [Loading] Done in /home/dell/Desktop/scala-cassandra-akka/project, returning: (scala-cassandra-akka-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 11.425569ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.025043ms
+[debug]         Load.loadUnit(file:/home/dell/Desktop/scala-cassandra-akka/project/, ...) took 45.159642ms
+[debug]       Load.apply: load took 47.723027ms
+[debug]       Load.apply: resolveProjects took 0.258274ms
+[debug]       Load.apply: finalTransforms took 23.459733ms
+[debug]       Load.apply: config.delegates took 0.8864ms
+[debug]       Load.apply: Def.make(settings)... took 239.206115ms
+[debug]       Load.apply: structureIndex took 59.941278ms
+[debug]       Load.apply: mkStreams took 0.004547ms
+[info] loading project definition from /home/dell/Desktop/scala-cassandra-akka/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1008.637722ms
+[debug]     Load.loadUnit: defsScala took 0.008439ms
+[debug] [Loading] Scanning directory /home/dell/Desktop/scala-cassandra-akka
+[debug]       Load.loadUnit: mkEval took 11.474976ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.496278 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 5.24244ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/dell/Desktop/scala-cassandra-akka, plugins: List(<none>))) took 11.517705ms
+[debug] [Loading] Done in /home/dell/Desktop/scala-cassandra-akka, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 6190.746318ms
+[debug]     Load.loadUnit: cleanEvalClasses took 7.728119ms
+[debug]   Load.loadUnit(file:/home/dell/Desktop/scala-cassandra-akka/, ...) took 7208.199317ms
+[debug] Load.apply: load took 7209.944557ms
+[debug] Load.apply: resolveProjects took 0.196443ms
+[debug] Load.apply: finalTransforms took 20.722646ms
+[debug] Load.apply: config.delegates took 0.640961ms
+[debug] Load.apply: Def.make(settings)... took 265.423301ms
+[debug] Load.apply: structureIndex took 49.083284ms
+[debug] Load.apply: mkStreams took 0.003529ms
+[info] set current project to scala-cassandra-akka (in build file:/home/dell/Desktop/scala-cassandra-akka/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/dell/.sbt/1.0/server/fa01cd03d7e5e9600938/sock
+[debug] Writing bsp connection file
+[info] started sbt server
